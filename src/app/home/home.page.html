@@ -1,14 +1,26 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Song Book!
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+      <ion-searchbar showCancelButton="focus" animated></ion-searchbar>
+    <ion-list *ngFor="let song of book">
+
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>{{song.title}}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{song.prem}}
+        </ion-card-content>
+      </ion-card>
+
+    </ion-list>
+
   </div>
 </ion-content>
