@@ -1,5 +1,7 @@
 {
-  "name": "SongBook",
-  "integrations": {},
-  "type": "angular"
+  "name": "SongsBook",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
 }

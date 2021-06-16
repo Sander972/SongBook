@@ -1,18 +1,27 @@
-# Song book
+# Song book reborn!
 
-Ionic app that display songs
+Refresh of this old project, now with new knowlege(hope so).
+Complete restart of this Ionic app that display songs
 
 ## To do
 
-- Implement animations for appereance of the songs at startup
-- Make the page to viasulize the entire song (force touch?)
-- Implement retriving of songs from google drive folder
+- costumize the example app trasforming it in a songBook!
+- implement store of songs usng chordsPro (git repo or firebase?)
+- implement parser of chordsPro standard
+- implement serviceWorker that find, and parse songs
 - Implement search functionallity
 - Implement login -user data- functions
 - Implement collections of songs and export in pdf functions
 
+
 ## Getting Started
 
+### Prerequisites
+
+- Install [node](https://nodejs.org/it/download/) 
+- Install [Ionic-cli](https://ionicframework.com/docs/developing/starting) 
+
+### Spin for a ride!
 Run inside the project folder:
 ```
 npm i
@@ -20,12 +29,8 @@ npm i
 
 to run the app type:
 ```
-ng serve
+ionic serve
 ```
-
-### Prerequisites
-
-Install [node](https://nodejs.org/it/download/) 
 
 ## Authors
 
