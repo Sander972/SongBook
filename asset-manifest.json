@@ -3,8 +3,8 @@
     "static/js/0.226a8646.chunk.js": "/SongsBook/static/js/0.226a8646.chunk.js",
     "static/js/0.226a8646.chunk.js.map": "/SongsBook/static/js/0.226a8646.chunk.js.map",
     "main.css": "/SongsBook/static/css/main.bdcf202f.chunk.css",
-    "main.js": "/SongsBook/static/js/main.846eb503.chunk.js",
-    "main.js.map": "/SongsBook/static/js/main.846eb503.chunk.js.map",
+    "main.js": "/SongsBook/static/js/main.12b4ee9c.chunk.js",
+    "main.js.map": "/SongsBook/static/js/main.12b4ee9c.chunk.js.map",
     "polyfills-dom.js": "/SongsBook/static/js/polyfills-dom.556ca562.chunk.js",
     "polyfills-dom.js.map": "/SongsBook/static/js/polyfills-dom.556ca562.chunk.js.map",
     "runtime-main.js": "/SongsBook/static/js/runtime-main.decbc29a.js",
@@ -134,6 +134,6 @@
     "static/css/4.7bc06244.chunk.css",
     "static/js/4.23e604af.chunk.js",
     "static/css/main.bdcf202f.chunk.css",
-    "static/js/main.846eb503.chunk.js"
+    "static/js/main.12b4ee9c.chunk.js"
   ]
 }
