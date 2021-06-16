@@ -5,6 +5,16 @@ export interface Message {
   id: number;
 }
 
+export interface Song {
+  title: string;
+  subtitle?: string;
+  addedDate?: string;
+  lyrics: string;
+  id: number;
+}
+
+const songs: Song[] = []
+
 const messages: Message[] = [
   {
     fromName: 'Matt Chorsey',
@@ -245,3 +255,8 @@ const messages: Message[] = [
 export const getMessages = () => messages;
 
 export const getMessage = (id: number) => messages.find(m => m.id === id);
+
+export const getAllSongs = () => songs;
+
+export const getSong = (title: string) => songs.find(m => m.title === title);
+
