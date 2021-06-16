@@ -1,2 +1,0 @@
-(this.webpackJsonpsongsbook=this.webpackJsonpsongsbook||[]).push([[53],{138:function(n,t,o){"use strict";o.r(t),o.d(t,"startStatusTap",(function(){return s}));var e=o(13),i=o(12),s=function(){var n=window;n.addEventListener("statusTap",(function(){Object(e.h)((function(){var t=n.innerWidth,o=n.innerHeight,s=document.elementFromPoint(t/2,o/2);if(s){var c=s.closest("ion-content");c&&new Promise((function(n){return Object(i.c)(c,n)})).then((function(){Object(e.f)((function(){return c.scrollToTop(300)}))}))}}))}))}}}]);
-//# sourceMappingURL=53.3c73a03d.chunk.js.map
